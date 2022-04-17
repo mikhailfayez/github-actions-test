@@ -19,7 +19,7 @@ jobs:
           ls -al
       - name: checkout master
         uses: actions/checkout@v2
-      -name: list files in the repo
+      - name: list files in the repo
         run: |
           pwd
           ls -al
